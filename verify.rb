@@ -28,11 +28,11 @@ File.foreach(filename) { |line|
   line.split("").each { |c|
     if readline == true
       if c =~ /[0-9]/
-        puts "digit checked"
         if i >= pi.length
           abort "ran out of authoritative pi digits at ${pi.length}"
         end
         if c != pi[i]
+          puts "#{filename}(#{lineno+1})"
           puts "failure line #{lineno+1} column #{columnno+1}"
           puts "expected: #{pi[i]}"
           puts "got char: #{c}"
