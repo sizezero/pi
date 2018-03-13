@@ -9,7 +9,7 @@ filename = ARGV[0]
 
 # read all the digits of pi
 pi=""
-File.foreach("pi2.csv") { |line|
+File.foreach("pi.csv") { |line|
   line.split("").each { |c|
     if c =~ /[0-9]/
       pi << c

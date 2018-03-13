@@ -5,7 +5,7 @@ if (args.length!=1) {
   return
 }
 
-File piFile = new File("pi2.csv")
+File piFile = new File("pi.csv")
 //File piFile = new File("small_pi.txt")
 
 // load pi
