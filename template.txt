@@ -1,0 +1,31 @@
+
+# Start
+# $ date
+# C-u M-! date
+# 
+
+
+# Room 1
+
+
+# Room 2
+
+
+# Room 3
+
+
+# Room 4
+
+
+# Room 5
+
+
+# End
+# $ date
+# C-u M-! date
+# 
+
+# M-x compile
+# to verify
+
+
