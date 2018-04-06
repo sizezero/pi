@@ -3,7 +3,6 @@
 # $ date
 # C-u M-! date
 # 
-
 # Room 1
 
 
@@ -28,6 +27,7 @@
 # $ date
 # C-u M-! date
 # 
-
+# verify with
 # M-x compile
-# to verify
+# next error with
+# C-x `

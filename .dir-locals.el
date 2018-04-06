@@ -1,3 +1,3 @@
 
-((nil . ((compile-command . (concat "./verify.rb " buffer-file-name)))))
+((nil . ((compile-command . (concat "../verify.rb " buffer-file-name)))))
 

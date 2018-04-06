@@ -4,7 +4,7 @@ require 'fileutils'
 
 i = 1
 while true do
-  filename = "try-#{'%05d' % i}.txt"
+  filename = "try/#{'%05d' % i}.txt"
   if !File.exist?(filename)
     FileUtils.cp("template.txt", filename)
     exit
